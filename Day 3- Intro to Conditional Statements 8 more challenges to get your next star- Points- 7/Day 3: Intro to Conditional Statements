@@ -1,0 +1,18 @@
+
+function main() {
+    var N = parseInt(readLine());
+    
+    if(N % 2 == 0) {
+        if( N >= 2 && N <= 5 || N>20) {
+            console.log("Not Weird");
+        } 
+        else {
+            console.log("Weird");
+        }
+    } else {
+  
+            console.log("Weird");
+    }
+    
+   
+}
