@@ -1,0 +1,13 @@
+//Language: Javascript
+  
+let x = readLine();
+let y = Number(readLine());
+let z = readLine();
+
+    
+console.log(Number(x) + i);
+console.log( (d + y).toFixed(1) );
+console.log(s + z);
+
+
+    
