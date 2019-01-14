@@ -1,0 +1,22 @@
+function processData(input) {  
+
+    //split the message into an array
+    let inputArray = input.split('\n');
+
+    //get number of test cases
+    let numTestCases = Number(inputArray[0]);
+ 
+    //put into an array the words(not more than the number of test cases)
+    let line = inputArray.slice(1, 1 + numTestCases);
+ 
+    line.forEach(word => {
+        let evens = '', odds = '';
+
+        word.split('').forEach((letter, index) => { 
+          return index % 2 === 0 ? evens += letter : odds += letter; 
+        })              
+
+        console.log(`${evens} ${odds}`);
+
+    })
+} 
